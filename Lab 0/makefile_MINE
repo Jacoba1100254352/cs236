@@ -1,0 +1,16 @@
+all:
+	clear
+	g++ -Wall -Werror -std=c++17 -g *.cpp -o lab0
+	./lab0 Lab0PassOffCases/input0.txt >out0.txt
+	diff Lab0PassOffCases/answer0.txt out0.txt
+	./lab0 Lab0PassOffCases/input1.txt >out1.txt
+	diff Lab0PassOffCases/answer1.txt out1.txt
+	./lab0 Lab0PassOffCases/input2.txt >out2.txt
+	diff Lab0PassOffCases/answer2.txt out2.txt
+	./lab0 Lab0PassOffCases/input3.txt >out3.txt
+	diff Lab0PassOffCases/answer3.txt out3.txt
+	./lab0 Lab0PassOffCases/input4.txt >out4.txt
+	diff Lab0PassOffCases/answer4.txt out4.txt
+	./lab0 Lab0PassOffCases/input5.txt >out5.txt
+	diff Lab0PassOffCases/answer5.txt out5.txt
+
